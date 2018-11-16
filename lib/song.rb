@@ -33,6 +33,7 @@ class Song
         @@genres << genre
       else
       end
+    end
   end
 
 end
