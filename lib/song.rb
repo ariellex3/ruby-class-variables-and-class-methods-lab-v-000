@@ -29,7 +29,9 @@ class Song
 
   def self.genre_count
     genre = {}
-    
+    @@genre.each do |key, value|
+      puts "The hash key is #{key} and the value is #{value}."
+
   end
 
 end
