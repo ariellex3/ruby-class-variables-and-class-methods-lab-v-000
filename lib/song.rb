@@ -28,12 +28,10 @@ class Song
   end
 
   def self.genre_count
-    @@genres.each do |genre|
-      if genre.uniq!
-        @@genres << genre
-      else
-      end
-    end
+    genre = {}
+    
   end
 
 end
+
+
